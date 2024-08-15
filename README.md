@@ -2,7 +2,7 @@
 
 [![Releases](https://img.shields.io/github/v/release/ministryofjustice/cloud-platform-terraform-template.svg)](https://github.com/ministryofjustice/cloud-platform-terraform-template/releases)
 
-This Terraform module will _create a ..._ for use on the Cloud Platform.
+This Terraform module will _create a [Cortex XDR Agent](https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/8.2/Cortex-XDR-Agent-Administrator-Guide/Install-the-Cortex-XDR-Agent-for-Kubernetes-Hosts) daemonset deployment for use on the Cloud Platform.
 
 ## Usage
 
