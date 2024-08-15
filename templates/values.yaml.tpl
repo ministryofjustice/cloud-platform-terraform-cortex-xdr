@@ -8,7 +8,7 @@ dockerPullSecret:
   # This value is a must in order to pull the image from the private repository.
   # This value can be retrieved from the tenant.
   # In case you want to set the value from here, set `create` to true
-  value: ""
+  value: "${dockerconfig}"
 
 deploymentSecret:
   # Set to "false" to inject distributionId externally, e.g. Vault-agent-injector
@@ -41,7 +41,7 @@ rbac:
 
 agent:
   # Agent distribution id should be retrieved from the tenant
-  distributionId: ""
+  distributionId: "${distribution_id}"
 
   # The default distribution server comes with the image but it can be changed
   # through here (for development) if needed
@@ -51,7 +51,7 @@ agent:
   proxyList: ""
 
   # Tags describing the endpoint, for example: "main,dev-machine1,test 123"
-  endpointTags: ""
+  endpointTags: "{$endpoint_tags}"
 
   # Name of the kuberenetes cluster - optional
   clusterName: ""
@@ -85,12 +85,12 @@ daemonset:
 
   image:
     # image repository url, can be retrieved from the tenant
-    repository: ""
+    repository: europe-west2-docker.pkg.dev/xdr-uk-2104535898207/agent-docker/cortex-agent
 
     # Only pull image if it doesn't exist in cache
     pullPolicy: IfNotPresent
 
-    tag: "latest"
+    tag: "8.5.0.125392"
 
   # These values are the recommended values for cortex agent
   # and are not recommended to change!

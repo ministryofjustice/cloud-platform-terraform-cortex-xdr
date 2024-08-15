@@ -7,21 +7,8 @@ This Terraform module will _create a [Cortex XDR Agent](https://docs-cortex.palo
 ## Usage
 
 ```hcl
-module "template" {
-  source = "github.com/ministryofjustice/cloud-platform-terraform-template?ref=version" # use the latest release
 
-  # Configuration
-  # ...
-
-  # Tags
-  business_unit          = var.business_unit
-  application            = var.application
-  is_production          = var.is_production
-  team_name              = var.team_name
-  namespace              = var.namespace
-  environment_name       = var.environment
-  infrastructure_support = var.infrastructure_support
-}
+TODO..
 ```
 
 See the [examples/](examples/) folder for more information.
