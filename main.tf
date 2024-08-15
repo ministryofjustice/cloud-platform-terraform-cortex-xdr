@@ -31,7 +31,7 @@ resource "kubernetes_namespace" "cortex-xdr" {
 
 resource "helm_release" "cortex-xdr" {
   name       = "cortex-xdr-agent"
-  chart      = "paloaltonetworks/cortex-xdr"
+  chart      = "cortex-xdr"
   namespace  = "cortex-xdr"
   repository = "https://paloaltonetworks.github.io/cortex-helm"
   timeout    = 600

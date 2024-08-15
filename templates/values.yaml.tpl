@@ -1,5 +1,5 @@
 dockerPullSecret:
-  create: false
+  create: true
 
   # In case you want to create your own docker pull secret, enter its name here
   name: ""
@@ -51,7 +51,7 @@ agent:
   proxyList: ""
 
   # Tags describing the endpoint, for example: "main,dev-machine1,test 123"
-  endpointTags: "{$endpoint_tags}"
+  endpointTags: "${endpoint_tags}"
 
   # Name of the kuberenetes cluster - optional
   clusterName: ""
