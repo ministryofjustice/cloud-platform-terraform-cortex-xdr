@@ -19,3 +19,29 @@ variable "endpoint_tags" {
   description = "comma separated key value pair for daemonset tagging"
   default = ""
 }
+
+variable "business_unit" {
+  type    = string
+  default = "Platforms"
+}
+
+variable "application" {
+  type    = string
+  default = "Palo Alto Cortex XDR Agent"
+}
+
+variable "is_production" {
+  type    = string
+  default = "true"
+}
+
+variable "namespace" {
+  type    = string
+  default = "cortex-xdr"
+}
+
+variable "environment_name" {
+  type    = string
+  default = "production"
+}
+
