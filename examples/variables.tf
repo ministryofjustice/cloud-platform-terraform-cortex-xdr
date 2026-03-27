@@ -28,3 +28,14 @@ variable "environment_name" {
   default     = "non-production"
 }
 
+variable "team_name" {
+  description = "Team name"
+  type        = string
+  default     = ""
+}
+
+variable "infrastructure_support" {
+  description = "The team responsible for managing the infrastructure"
+  type        = string
+  default     = ""
+}

@@ -45,3 +45,12 @@ variable "environment_name" {
   default = "production"
 }
 
+variable "team_name" {
+  type    = string
+  default = ""
+}
+
+variable "infrastructure_support" {
+  type    = string
+  default = ""
+}
