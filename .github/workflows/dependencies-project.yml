@@ -7,5 +7,5 @@ on:
 
 jobs:
   add-dependabot-to-project:
-    uses: ministryofjustice/cloud-platform-github-workflows/.github/workflows/dependencies-project.yml@e7b19e2d64fe74d838928b6ee84ffeaa264205ce # v1.0.0
+    uses: ministryofjustice/cloud-platform-github-workflows/.github/workflows/dependencies-project.yml@61205bd138bba137d94df71e2b58af1955e537cf # main
     secrets: inherit
