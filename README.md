@@ -49,8 +49,10 @@ No modules.
 | <a name="input_business_unit"></a> [business\_unit](#input\_business\_unit) | n/a | `string` | `"Platforms"` | no |
 | <a name="input_endpoint_tags"></a> [endpoint\_tags](#input\_endpoint\_tags) | comma separated key value pair for daemonset tagging | `string` | `""` | no |
 | <a name="input_environment_name"></a> [environment\_name](#input\_environment\_name) | n/a | `string` | `"production"` | no |
+| <a name="input_infrastructure_support"></a> [infrastructure\_support](#input\_infrastructure\_support) | n/a | `string` | `""` | no |
 | <a name="input_is_production"></a> [is\_production](#input\_is\_production) | n/a | `string` | `"true"` | no |
 | <a name="input_namespace"></a> [namespace](#input\_namespace) | n/a | `string` | `"cortex-xdr"` | no |
+| <a name="input_team_name"></a> [team\_name](#input\_team\_name) | n/a | `string` | `""` | no |
 | <a name="input_xdr_distribution_id"></a> [xdr\_distribution\_id](#input\_xdr\_distribution\_id) | distribution id for Cortex XDR agent tenant | `string` | `""` | no |
 | <a name="input_xdr_docker_secret"></a> [xdr\_docker\_secret](#input\_xdr\_docker\_secret) | dockerconfigjson for Cortex XDR agent | `string` | `""` | no |
 
